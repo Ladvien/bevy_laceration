@@ -2,6 +2,8 @@
 
 > ⚠️ **Vibe Coded** — written by an AI agent working from a human's direction. It is used in a shipping game and covered by tests, but it has had no line-by-line human audit. Read it before you trust it.
 
+> **Archived 2026-09-04 — this crate is now [`bevy_carnage::laceration`](https://github.com/Ladvien/bevy_carnage).** Depend on `bevy_carnage` and import from `bevy_carnage::laceration`. Every version on crates.io is yanked; a lockfile that pins one still builds. This repository no longer mirrors anything: `crates/bevy_laceration/` was removed from [`Ladvien/foundation_vs_slop`](https://github.com/Ladvien/foundation_vs_slop) when the crate became a module.
+
 Progressive lacerations: a cut along a mesh surface whose gape widens on a time curve scaled by an authored skin tension, opening onto a wound bed banded by anatomical depth. Cut across the Langer lines and it yawns; cut along them and it barely parts, in the measured ratio. CPU-side, deterministic, hashable.
 
 > **This repo is a read-only mirror.** It is split out of [`Ladvien/foundation_vs_slop`](https://github.com/Ladvien/foundation_vs_slop) with `git subtree split`, history intact. Issues and PRs belong upstream.
